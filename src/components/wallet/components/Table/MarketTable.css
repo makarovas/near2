@@ -1,0 +1,24 @@
+.MarketTable {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.MarketTable__header {
+    color: #fff;
+}
+
+.MarketTable__item {
+    width: 100%;
+    border: 2px solid grey;
+}
+
+
+.MarketTable__item--bid {
+    background-color: lightgreen;
+}
+
+.MarketTable__item--ask {
+    background-color: lightcoral;
+}
